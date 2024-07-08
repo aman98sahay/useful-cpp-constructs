@@ -39,4 +39,6 @@ static print_class & operator << (print_class& some_obj,  endl_Func_ptr fn) {
 
         ;
     }
+
+    return some_obj;
 }
